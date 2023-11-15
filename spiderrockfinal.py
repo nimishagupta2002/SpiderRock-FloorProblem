@@ -48,8 +48,8 @@ def generate_set(floor_permutation, w):
     permutation_set.remove(w)
     return permutation_set
 
+# solves the floor problem
 def floor_problem(w, h): 
-
     # initialization
     permutations = generate_permutations([], w)
     num_permutations = len(permutations)
